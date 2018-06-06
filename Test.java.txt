@@ -1,0 +1,49 @@
+//一个引用能够调用哪些成员（变量和函数），取决于这个引用的类型
+//一个引用调用的是哪一个方法，取决于这个引用所指向的对象
+
+//向上转型
+class Test{
+	public static void main (String args []){
+		//Student s = new Strdent();
+		//Person p = s;
+		person.p = neew Student();
+
+		p.name = "张三";
+		p.age = 20;
+		//p.address = "北京";
+		p.introduce();
+		//p.study();
+	}
+}
+
+ //向下转型
+class Test{
+	public static void main (String args []){
+		//Student s = new Strdent();
+		//Person p = s;
+
+		//正确的
+		Person p = new Student();
+		Student s = (Student)p;
+
+		//错误的
+		Person p = new Person();
+		Student s (Student)p;		
+
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
