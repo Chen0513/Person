@@ -1,10 +1,12 @@
 class Student extends Person{
 	String address;
 	void study(){
-		System.out.println("我正在练习");
+		System.out.println("脦脪脮媒脭脷脕路脧掳");
 	}
 	void introduce(){
 		super.introduce();
-		System.out.println("我的家在" + address);
+		System.out.println("脦脪碌脛录脪脭脷" + address);
 	}
 }
+
+//杞崲缂栫爜
